@@ -1,3 +1,9 @@
+'''
+Basic single compartment neuron. Test file. 
+
+'''
+
+
 import neuron
 from neuron import h,gui 
 
