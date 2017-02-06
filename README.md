@@ -1,2 +1,2 @@
 # NeuralFit
-Estimating Zebra Finch HVC AdEx model neural parameters using emcee and Monte Carlo Markov Chains
+Estimating Zebra Finch HVC AdEx model parameters using Monte Carlo Markov Chain fitting
