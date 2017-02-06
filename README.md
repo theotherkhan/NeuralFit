@@ -1,2 +1,2 @@
 # NeuralFit
-Estimating HVC action potential neural parameters using emcee and Neuron
+Estimating Zebra Finch HVC AdEx model neural parameters using emcee and Monte Carlo Markov Chains
