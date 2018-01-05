@@ -16,9 +16,7 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "import numpy as np\n",
@@ -35,9 +33,7 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "def progress_bar(N):\n",
@@ -49,9 +45,7 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "# CDM: comment functions, especially ones with short names\n",
@@ -77,9 +71,7 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "@jit(nopython=True)\n",
@@ -103,9 +95,7 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "@jit(nopython=True)\n",
@@ -119,9 +109,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "def ess(weights):\n",
@@ -135,9 +123,7 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "# CDM: split out the tasks into separate functions\n",
@@ -207,9 +193,7 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": [
     "def pf(data, dt, particles, weights=0, s_sd=0.05, o_sd=1.0, resamp_thresh=0.04):\n",
@@ -268,9 +252,7 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "metadata": {
-    "collapsed": false
-   },
+   "metadata": {},
    "outputs": [
     {
      "data": {
@@ -306,9 +288,7 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "metadata": {
-    "collapsed": false
-   },
+   "metadata": {},
    "outputs": [
     {
      "name": "stderr",
@@ -341,7 +321,6 @@
    "cell_type": "code",
    "execution_count": 11,
    "metadata": {
-    "collapsed": false,
     "scrolled": true
    },
    "outputs": [
@@ -394,9 +373,7 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "metadata": {
-    "collapsed": false
-   },
+   "metadata": {},
    "outputs": [
     {
      "data": {
@@ -421,30 +398,28 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
+   "metadata": {},
    "outputs": [],
    "source": []
   }
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "Python 2",
+   "display_name": "neuralfit",
    "language": "python",
-   "name": "python2"
+   "name": "neuralfit"
   },
   "language_info": {
    "codemirror_mode": {
     "name": "ipython",
-    "version": 2
+    "version": 3
    },
    "file_extension": ".py",
    "mimetype": "text/x-python",
    "name": "python",
    "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython2",
-   "version": "2.7.13"
+   "pygments_lexer": "ipython3",
+   "version": "3.5.4"
   }
  },
  "nbformat": 4,
